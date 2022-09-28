@@ -1,0 +1,25 @@
+.card {
+    height: 280px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    margin: 35px 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-shadow: 3px 7px 22px -6px;
+    background-color: aliceblue;
+}
+
+.card_image {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.card_name {
+    margin: 0px 0px 8px;
+    font-family: sans-serif;
+}
+
+.card_price {}

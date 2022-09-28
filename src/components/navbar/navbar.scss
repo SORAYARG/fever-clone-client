@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+a:link {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+
+.navb {
+    width: 100%;
+    height: 60px;
+    background-color: #06232c;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px 8px;
+    top: 0%;
+
+    .menu {
+        display: flex;
+        color: aliceblue;
+
+    }
+}
+
+#title {
+    font-family: 'Anton', sans-serif;
+    color: aliceblue;
+
+}
+
+.inputsearch {
+    width: 500px;
+    margin-left: 600px;
+    border-radius: 8px;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    background-color:#fff;
+    border:none; 
+    border-radius:10px; 
+    padding: 5px 8px;
+}
+
+button:hover {
+    background-color:#ffd620;
+    transition: 0.7s;
+}
